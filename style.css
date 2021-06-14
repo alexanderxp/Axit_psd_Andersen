@@ -51,6 +51,9 @@ a {
 .header-nav-link:last-child {
 	margin-right: 0px;
 }
+
+/* ============== Home ============= */
+
 .home-container {
 	background-image: url('images/bg.jpg');
 	background-size: cover;
@@ -107,7 +110,7 @@ a {
 	line-height: 1.8;
 	margin-bottom: 50px;
 }
-.home-link,.design-link {
+.home-link, .design-link {
 	color: white;
 	border: 2px solid white;
 	padding: 10px 25px;
