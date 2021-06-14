@@ -160,3 +160,7 @@ a {
 	padding: 15px 0px;
 	cursor: pointer;
 }
+
+.home-form-submit:hover {
+	background-color: #ea8f4c;
+}
