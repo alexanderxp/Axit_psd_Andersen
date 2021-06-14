@@ -194,4 +194,29 @@ a {
 	line-height: 1.7;
 	margin-bottom: 70px;
 	text-align: center;
+    color: gray;
+}
+
+.awesome-box-container {
+	display: flex;
+	justify-content: space-around;
+	margin: 0px 20px;
+}
+.awesome-box {
+	width: 30%;
+}
+.awesome-box-img {
+	margin-left: calc(50% - 35px);
+	margin-bottom: 20px;
+}
+.awesome-box-heading {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.awesome-box-text {
+	text-align: center;
+	margin-bottom: 20px;
+	line-height: 1.7;
+	font-size: 0.85rem;
+    color: gray;
 }
