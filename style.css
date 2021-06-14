@@ -110,3 +110,8 @@ a {
 	border: 2px solid white;
 	padding: 10px 25px;
 }
+
+.home-link:hover,.design-link:hover {
+	color: black;
+	background-color: white;
+}
