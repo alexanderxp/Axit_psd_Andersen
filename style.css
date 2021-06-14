@@ -7,6 +7,41 @@ h1,h2,h3,h4,h5,h6,p {
 	padding: 0px;
 }
 
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 100%;
+	
+}
+.content {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.header-container {
+	background-color: black;
+	border-bottom: 1px solid white;
+}
+.header-content {
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+.header-logo,.header-nav {
+	line-height: 70px;
+	margin: 0px 20px;
+}
+.header-logo {
+	color: white;
+	font-size: 2rem;
+}
+.header-logo-span {
+	color: $orange;
+	font-weight: 400;
+}
+
 
 
 
