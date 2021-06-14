@@ -1,4 +1,5 @@
 body {
+    margin: 0;
 	font-family:  Nunito, 'Open Sans', Arial;
 }
 
@@ -130,4 +131,32 @@ a {
 .home-form-span {
 	text-transform: uppercase;
 	color: orange;
+}
+
+.home-form-input,.contact-form-input {
+	border: none;
+	width: calc(100% - 105px);
+	margin: 20px 40px;
+	padding: 10px 10px;
+	font-size: 1rem;
+	border: 2px solid white;
+	border-bottom: 2px solid grey;
+}
+.home-form-input:focus,.contact-form-input:focus {
+	outline: none;
+	border: 2px solid #d6d6d6;	
+}
+.home-form-input:last-of-type {
+	margin-bottom: 50px;
+}
+.home-form-submit {
+	width: 100%;
+	background-color: orange;
+	text-align: center;
+	border: none;
+	display: block;
+	color: white;
+	font-size: 1rem;
+	padding: 15px 0px;
+	cursor: pointer;
 }
