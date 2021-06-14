@@ -94,3 +94,19 @@ a {
 	margin-bottom: 20px;
 }
 
+.home-line {
+	height: 1px;
+	width: 10%;
+	background-color: white;
+	margin-bottom: 20px;
+}
+.home-par {
+	font-weight: 300;
+	line-height: 1.8;
+	margin-bottom: 50px;
+}
+.home-link,.design-link {
+	color: white;
+	border: 2px solid white;
+	padding: 10px 25px;
+}
