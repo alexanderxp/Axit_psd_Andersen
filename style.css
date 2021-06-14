@@ -49,7 +49,21 @@ a {
 .header-nav-link:last-child {
 	margin-right: 0px;
 }
-
+.home-container {
+	background-image: url('images/bg.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+	position: relative;
+}
+.home-overlay,.design-overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 5;
+}
 
 
 
