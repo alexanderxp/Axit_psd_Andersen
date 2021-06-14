@@ -169,3 +169,23 @@ a {
 	background-color: #ea8f4c;
 }
 
+/* ============== Awesome ============= */
+.awesome-content {
+	padding: 70px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.awesome-heading {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.awesome-line {
+	height: 2px;
+	width: 10%;
+	background-color: $orange;
+	margin-bottom: 30px;
+}
