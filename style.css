@@ -186,6 +186,6 @@ a {
 .awesome-line {
 	height: 2px;
 	width: 10%;
-	background-color: $orange;
+	background-color: orange;
 	margin-bottom: 30px;
 }
