@@ -115,3 +115,19 @@ a {
 	color: black;
 	background-color: white;
 }
+
+.home-form-container {
+	width: 40%;
+	align-self: center;
+	background-color: white;
+	margin: 0px 20px; 
+}
+.home-form-heading {
+	padding: 15px 25px;
+	text-align: center;
+	background-color: lightgrey;
+}
+.home-form-span {
+	text-transform: uppercase;
+	color: orange;
+}
